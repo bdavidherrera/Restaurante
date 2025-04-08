@@ -1,0 +1,42 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-image: url(../img/Biblioteca.jfif);
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #f5ebeb;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+h3 {
+    color: #070707;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 248, 248);
+    
+}
+
+.btn:hover{
+    background-color: #f1181896; /* Amarillo */
+    scale: unset;
+}
+
+@media (max-width: 576px) {
+    .login-container {
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,230 @@
+.navbar {
+    background-color: #970d08fb; /* Color oscuro */
+}
+.navbar-brand img {
+    height: 70px; /* Tamaño del logo */
+}
+.nav-link {
+    color: rgba(255, 255, 255, 0.918) !important ;
+    font-weight: 500;
+}
+.btn-custom {
+    background-color: #ffc107; /* Amarillo */
+    color: #000;
+}
+
+
+.carousel-inner {
+    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    height: 60vh; /* Ajusta la altura, puedes cambiarla según tu necesidad */
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.imagenDC {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Evita que la imagen se desborde */
+}
+
+.imagenDC img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+
+
+/* Estilos del footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px; /* Ajusta la altura de las imágenes */
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.sectionA{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#cardmb{
+    margin-bottom: 250px;
+}
+
+#bodyimagen{
+    background-size: cover;  /* Ajusta la imagen para que cubra toda la pantalla */
+    background-position: center;  /* Centra la imagen en la pantalla */
+    background-repeat: no-repeat;  /* Evita que la imagen se repita */
+    background-image: url('../img/READ.jpg');
+}
+
+.btn-secondary {
+    background-color: #055c20 !important;
+    border: none;
+    margin-top: auto;
+    padding: 0.5rem 2rem;
+}
+
+.btn-secondary:hover {
+    background-color: #07d497 !important;
+    transform: scale(1.05); /* Agranda ligeramente el boton */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* Añade una sombra */
+}
+
+#botones{
+display: flex;
+gap: 10px;
+justify-content: center;
+
+}
+
+.btn-custom {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.btn-custom:hover {
+    background-color: aquamarine;
+}
+
+.re-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 150px;
+    margin-bottom: 250px;
+    overflow-x: auto; 
+}
+
+/*Tabla*/
+
+#tabla{
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 250px;
+    margin-bottom: 348px;
+    overflow-x: auto; 
+}
+
+/* Título */
+#titulo {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    
+}
+
+/* Encabezado de la tabla */
+thead {
+    background: #333;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Celdas del encabezado */
+thead th {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Filas impares */
+tbody tr:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+/* Filas pares */
+tbody tr:nth-child(even) {
+    background: #f1f1f1;
+}
+
+/* Celdas de la tabla */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover en filas */
+tbody tr:hover {
+    background: #e0e0e0;
+    transition: 0.3s;
+}
+
+.btn-warning {
+    background: #f0ad4e;
+    color: white;
+}
+
+.btn-warning:hover {
+    background: #ec971f;
+}
+
+/* Botón de eliminar */
+.btn-danger {
+    background: #d9534f;
+    color: white;
+}
+
+.btn-danger:hover {
+    background: #c9302c;
+}
+
+
+#mainContent {
+    width: 100%; /* Ocupa todo el ancho */
+    
+}
